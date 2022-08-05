@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      <div class="container mt-5">
+        <div class="form-group">
+          <input type="number" name="" id="inputNumberArr" class="form-control" placeholder="" aria-describedby="helpId" style="display: inline-block; width: 90%;">
+          <button type="button" class="btn btn-primary" id="addNumberArr">Thêm số</button>
+        </div>
+        <div class="alert alert-success" role="alert">
+          👉<span id="txtArray"></span>
+        </div>
+
+        <div class="mt-4">
+          <h4>Tổng các số dương trong mảng.</h4>
+          <div class="alert alert-success" role="alert" style="width: 80%; display: inline-block;">
+            👉<span id="sumNumberArray"></span>
+          </div>
+          <button type="button" class="btn btn-success" id="sumNumber">Tính tổng</button>
+        </div>
+
+        <div class="mt-4">
+          <h4>Đếm có bao nhiêu số dương trong mảng.</h4>
+          <div class="alert alert-success" role="alert" style="width: 80%; display: inline-block;">
+            👉<span id="countNumberArr"></span>
+          </div>
+          <button type="button" class="btn btn-success" id="countNumber">Đếm</button>
+        </div>
+
+        <div class="mt-4">
+          <h4>Tìm số nhỏ nhất trong mảng.</h4>
+          <div class="alert alert-success" role="alert" style="width: 80%; display: inline-block;">
+            👉<span id="findMinNumberArr"></span>
+          </div>
+          <button type="button" class="btn btn-success" id="findMinNumber">Tìm</button>
+        </div>
+
+        <div class="mt-4">
+          <h4>Tìm số dương nhỏ nhất trong mảng.</h4>
+          <div class="alert alert-success" role="alert" style="width: 80%; display: inline-block;">
+            👉<span id="findMinNumberArr2"></span>
+          </div>
+          <button type="button" class="btn btn-success" id="findMinNumber2">tìm</button>
+        </div>
+
+        <div class="mt-4">
+          <h4>Tìm số chẵn cuối cùng trong mảng. Nếu mảng không có giá trị chẵn thì trả về -1</h4>
+          <div class="alert alert-success" role="alert" style="width: 80%; display: inline-block;">
+            👉<span id="lastNumberArr"></span>
+          </div>
+          <button type="button" class="btn btn-success" id="lastNumber">Tìm</button>
+        </div>
+
+        <div class="mt-4">
+          <h4>Đổi chỗ 2 giá trị trong mảng theo vị trí</h4>
+          <div class="alert alert-success" role="alert" style="width: 80%; display: inline-block;">
+            👉<span id="swapNumberArr"></span>
+          </div>
+          <button type="button" class="btn btn-success" id="swapNumber">Đổi chỗ</button>
+        </div>
+
+        <div class="mt-4">
+          <h4>Sắp xếp mảng theo thứ tự tăng dần</h4>
+          <div class="alert alert-success" role="alert" style="width: 80%; display: inline-block;">
+            👉<span id="sortNumberArr"></span>
+          </div>
+          <button type="button" class="btn btn-success" id="sortNumber">Sắp xếp</button>
+        </div>
+
+        <div class="mt-4">
+          <h4>Tìm số nguyên tố đầu tiên trong mảng. Nếu mảng không có số nguyên tố thì trả về – 1</h4>
+          <div class="alert alert-success" role="alert" style="width: 80%; display: inline-block;">
+            👉<span id="primeNumberArr"></span>
+          </div>
+          <button type="button" class="btn btn-success" id="primeNumber">Tìm</button>
+        </div>
+
+        <div class="mt-4">
+          <h4>Nhập thêm 1 mảng số thực, tìm xem trong mảng có bao nhiêu số nguyên?</h4>
+          <div class="alert alert-success" role="alert" style="width: 80%; display: inline-block;">
+            👉<span id="addNewArr"></span>
+          </div>
+          <button type="button" class="btn btn-success" id="addNew">Thêm mảng mới</button>
+        </div>
+        
+        <div class="mt-4">
+          <h4>So sánh số lượng số dương và số lượng số âm xem số nào nhiều hơn.</h4>
+          <div class="alert alert-success" role="alert" style="width: 80%; display: inline-block;">
+            👉<span id="compareNumberArr"></span> 
+          </div>
+          <button type="button" class="btn btn-success" id="compareNumber">So sánh</button>
+        </div>
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
